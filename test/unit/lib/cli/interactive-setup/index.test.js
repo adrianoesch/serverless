@@ -34,7 +34,7 @@ describe('test/unit/lib/cli/interactive-setup/index.test.js', () => {
       // dashboard-login
       {
         instructionString: 'Do you want to login/register to Serverless Dashboard?',
-        input: '\u001b[B', // Move cursor down by one line
+        input: 'n', // Move cursor down by one line
       },
 
       // dashboard-set-org
